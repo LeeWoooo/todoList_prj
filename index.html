@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="weather"></div>
+        </nav>
+    </header>
+    <main>
+        <div class="clock">
+            <span class="time"></span>
+        </div>
+        <div class="ask_name">
+            <form class="js-form form" >
+                <input type="text" placeholder="What is your name?">
+            </form>
+        </div>
+        <div class="gretting">
+            <span class="hello"></span>
+        </div>
+        <div class="todo">
+            <form class="listform">
+                <input type="text" class="todoinput" placeholder="What are you planning to do today?">
+            </form>
+        </div>
+        <div class="js-check">
+            <div class="listText">To DO</div>
+            <ul class="todolist"></ul>
+            <div class="listText">Check</div>
+            <ul class="checklist"></ul>
+        </div>
+    </main>
+    <script src="src/clock.js"></script>
+    <script src="src/gretting.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/bg.js"></script>
+    <script src="src/weather.js"></script>
+</body>
+</html>
